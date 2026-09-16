@@ -1,0 +1,32 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": [
+    [
+      120,
+      0
+    ],
+    [
+      0,
+      120
+    ]
+  ],
+  "feature_importance": {
+    "has_https": 0.3814,
+    "num_dots": 0.2039,
+    "num_subdomains": 0.1327,
+    "hostname_entropy": 0.0731,
+    "digit_ratio_in_hostname": 0.0493,
+    "hostname_length": 0.049,
+    "num_suspicious_keywords": 0.0444,
+    "path_length": 0.0212,
+    "has_ip_address": 0.0177,
+    "url_length": 0.0124,
+    "num_hyphens": 0.008,
+    "is_shortened": 0.0069,
+    "has_at_symbol": 0.0,
+    "has_double_slash_redirect": 0.0
+  }
+}
